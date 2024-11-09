@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RAF NETWORK & SERVICES SD BHD</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="RAF NETWORK & SERVICES SD BHD">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#partnerships">Partnerships</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>Building the Future, Together</h1>
+        <p>At RAF NETWORK & SERVICES SD BHD, we provide top-quality construction and geotechnical solutions.</p>
+        <a href="#contact" class="cta-btn">Get a Free Consultation</a>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>RAF NETWORK & SERVICES SD BHD is a leading construction company based in Malaysia, specializing in residential, commercial, and industrial projects. We work closely with SHINEI GEOTECHNIQUE SDN BHD, ensuring comprehensive geotechnical solutions alongside our construction expertise.</p>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Construction</h3>
+            <p>We specialize in residential, commercial, and industrial construction projects, delivering top-tier quality and efficiency.</p>
+        </div>
+        <div class="service">
+            <h3>Geotechnical Engineering</h3>
+            <p>Our partnership with SHINEI GEOTECHNIQUE SDN BHD allows us to provide expert geotechnical engineering services, including soil testing and foundation design.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2>Our Projects</h2>
+        <p>Explore some of our notable construction and geotechnical projects that reflect our commitment to quality and innovation.</p>
+        <div class="project-gallery">
+            <img src="project1.jpg" alt="Project 1">
+            <img src="project2.jpg" alt="Project 2">
+            <img src="project3.jpg" alt="Project 3">
+        </div>
+    </div>
+</section>
+
+<!-- Partnerships Section -->
+<section id="partnerships" class="partnerships">
+    <div class="container">
+        <h2>Our Partnerships</h2>
+        <p>We proudly collaborate with SHINEI GEOTECHNIQUE SDN BHD to deliver high-quality construction and geotechnical solutions.</p>
+    </div>
+</section>
+
+<!-- Contact Us Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 RAF NETWORK & SERVICES SD BHD. All rights reserved.</p>
+        <p>Malaysia | <a href="mailto:info@rafnetwork.com">info@rafnetwork.com</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
